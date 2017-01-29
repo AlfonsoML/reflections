@@ -1,12 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    When a repository is initialized, a hidden folder named .git is 
-    added with the settings of the repository.
-    This action is needed to create the initial setup of the repo.
+	When a repository is initialized, a hidden folder named .git is 
+	added with the settings of the repository.
+	This action is needed to create the initial setup of the repo.
 
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 
 	The staging area is a temporary status for the changes to group them
 	into a commit due to the limitations of working with the command line
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By select (and ignoring) the files that belong to the same feature
+	when the change is finished.
 
