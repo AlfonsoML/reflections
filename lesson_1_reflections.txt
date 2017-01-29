@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Obviously showing the only the differences avoids the noise, the clutter of 
+    everyting else and allows to see only the changes and focus on them.
+    BTW: it's really stupid this obsession with Linux and the command line.
+    Why don't you browse with Lynx if you like the command line so much?
+    Using Beyond Compare is just so much better than the crappy suggested FC
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Everynow and then, we all make mistakes, so if there's a new bug introduced,
+    with a full history it's possible to look back and find how it used to work
+    and pinpoint the culprit of the new bug.
+    It's also useful if some project is still using a dll built on old code, so
+    you can create again the environment at that time and apply just the needed 
+    patch without moving everything forward if it's not convenient at this time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Having automatic saves is good for a basic backup system just in case that 
+    something goes wrong and you didn't save your work, but obviously most of the
+    time those backups are useless because they won't compile, there's no way
+    to tell exactly when something was added or removed except by comparing the
+    different versions.
+    By choosing commit times you can group the set of related changes and save 
+    all together, the timeline will be much cleared and it allows to easily
+    trace when something has been modified. The downside is that you must remember 
+    to do it.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google docs has been designed to work on the concept of "docs", each file is
+    its own entity and it doesn't have any relationship (by default) with other
+    files that might be on the same folder. 
+    Git has been created for programmers, and we work with source code and assets
+    that are grouped together. To go back in history we need the same state for 
+    all the files or otherwise it would be a mess.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows to view all the set of changes that have been added to the 
+    repository
+    git diff allows to view the differences between two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control is a must in order to be able to test new features, add
+    changes, remove things, etc... without worrying about if there's a need in the
+    future to use again the project at its current state, or to find out why 
+    something is there (or not)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to keep full documented history of all the projects as well
+    as enable collaboration with colleagues as well as other people.
+    It's also nowadays the way to cooperate with other projects.

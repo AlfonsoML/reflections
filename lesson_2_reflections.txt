@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When a repository is initialized, a hidden folder named .git is 
+    added with the settings of the repository.
+    This action is needed to create the initial setup of the repo.
+
