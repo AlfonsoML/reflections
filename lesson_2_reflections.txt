@@ -35,3 +35,9 @@ the diagram the way we do?
 	Unless you have a merge conflict :-(
 	We represent it that way because two paths of code now become one.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+	Doing merges manually is painful, but it allows you to verify that everything
+	ends up exactly as you want. If a tool is able to correctly merge two branches
+	that means that you don't waste your time there.
