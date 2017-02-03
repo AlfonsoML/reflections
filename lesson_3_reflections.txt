@@ -5,3 +5,13 @@ When would you want to use a remote repository rather than keeping all your work
   The third reason to use a remote repository is to make it public so other people can
   use this project (or to boost your ego)
 
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+  Maybe that would be OK if every local work is done on branches and no one else works
+  on those branches, but that isn't too realistic. The fact is that if there are changes
+  that are pulled automatically it can generate a stream of merge conflicts and even
+  unexpected changes to the current code base, so we would be wasting lots of time in
+  order to get back to a working state.
+  
+  
