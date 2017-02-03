@@ -15,3 +15,13 @@ stay up-to-date with your remote repository?
   order to get back to a working state.
   
   
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+	A clone is a full copy of another repository. It's used when you want this code to
+	be exactly the same (after synchronization) than the other repository
+	A fork is kinda like a clone, but the difference is that you don't have permissions
+	to push changes to the source repository, so you create a fork to keep your changes
+	on github
+	A branch is group of changes that might exist in the local repository, the remote,
+	the forked repository...
