@@ -32,3 +32,12 @@ locally?
 	You have all the files?
 	I don't really know what kind of answer or reflection they want us to provide here.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+	Github is just a Git provider, without Github we could use other hosting like
+	Gitlab and BitBucket.
+	Without Git we would be using other VC system, SVN, HG, ...
+	And those without a VC system would be sending back and forth the set of changes
+	to the changes and wasting lots of time merging changes.
+
