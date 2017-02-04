@@ -25,3 +25,10 @@ instead of another?
 	on github
 	A branch is group of changes that might exist in the local repository, the remote,
 	the forked repository...
+
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+	You have all the files?
+	I don't really know what kind of answer or reflection they want us to provide here.
+
