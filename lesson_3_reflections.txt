@@ -41,3 +41,13 @@ would be harder?
 	And those without a VC system would be sending back and forth the set of changes
 	to the changes and wasting lots of time merging changes.
 
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	If there are several people working on the same code base then it's a must to use
+	different branches.
+	If you're doing some experiment (even on your own), it can be  better to use a branch
+	in order to be able to easily go back to the stable version
+	Working always on master can be done only if you are the only developer, and you're
+	sure that you want to always move forward
+
